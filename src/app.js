@@ -38,7 +38,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
     name: "Dave",
-    message: "HELP me please  please or help yourself whatever",
+    message: "Non-existent help page",
   });
 });
 
